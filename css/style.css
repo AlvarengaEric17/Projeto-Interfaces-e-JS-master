@@ -1,0 +1,273 @@
+                /* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Dosis:wght@300;400;500;600;700&display=swap'); */
+                
+                * {
+                    font-family: 'Quicksand', sans-serif;
+                    padding: 0;
+                    margin: 0;
+                    vertical-align: baseline;
+                    list-style: none;
+                    border: 0
+                }
+                
+                main {
+                    width: 100%;
+                    margin: 0 auto;
+                    float: left;
+                }
+                
+                header {
+                    margin-top: -20px;
+                    width: 100%;
+                    background-color: #24DB1F;
+                }
+                
+                section {
+                    margin: 0 auto;
+                    text-align: center;
+                    width: 90%;
+                }
+                
+                footer {
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    width: 100%;
+                    background-color: #24DB1F;
+                }
+                
+                nav {
+                    width: 100%;
+                }
+                
+                .lista {
+                    margin-top: 20px;
+                    text-align: center;
+                }
+                
+                .menu {
+                    display: inline-block;
+                    margin-left: 55px;
+                }
+                
+                a {
+                    font-size: 20px;
+                    text-decoration: none;
+                    color: #000;
+                    font-weight: bold;
+                }
+                
+                h2 {
+                    font-size: 30px;
+                    margin-top: 20px;
+                    text-align: center;
+                    font-family: 'Quicksand', sans-serif;
+                    font-weight: bold;
+                }
+                
+                h6 {
+                    margin-top: 5px;
+                    font-size: 18px;
+                    text-align: center;
+                    font-weight: bold;
+                    font-family: 'Quicksand', sans-serif;
+                }
+                
+                .paragrafo_index {
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin-top: 20px;
+                    text-indent: 25px;
+                    text-align: justify;
+                }
+                
+                .paragrafo_alimentacao {
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin-top: 20px;
+                    text-indent: 25px;
+                    text-align: justify;
+                }
+                
+                .paragrafo_imc {
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin-top: 20px;
+                    text-indent: 25px;
+                    text-align: justify;
+                }
+                
+                .paragrafo_atividade {
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin-top: 20px;
+                    text-indent: 25px;
+                    text-align: justify;
+                }
+                
+                ul li {
+                    line-height: 30px;
+                    margin-left: 25%;
+                    list-style: disc;
+                    text-align: start;
+                }
+                
+                .sub_alimentacao {
+                    padding: 20px;
+                }
+                
+                .espaco_li {
+                    margin-bottom: 20px;
+                }
+                
+                .img_1,
+                .img_2 {
+                    margin-top: 20px;
+                    width: 45%;
+                    display: inline-block;
+                }
+                
+                nav a:hover {
+                    color: #E8180C;
+                    transition: 1s;
+                    font-weight: bold;
+                }
+                
+                .centro {
+                    text-align: center;
+                }
+                
+                section img:hover {
+                    transform: scale(1.1);
+                }
+                
+                section img {
+                    transition: transform .3s;
+                }
+                
+                .espaco {
+                    margin-bottom: 20px;
+                }
+                
+                .space {
+                    margin-top: 120px;
+                    margin-bottom: 30px;
+                }
+                
+                input {
+                    border-radius: 25px;
+                    border: 1px solid black;
+                }
+                
+                table {
+                    border: 1px solid black;
+                    text-align: center;
+                    margin: auto;
+                    margin-bottom: 30px;
+                }
+                
+                input[type=number],
+                input[type=text] {
+                    padding: 5px;
+                }
+                
+                input[type=button] {
+                    padding: 15px;
+                    background-color: #E8180C;
+                    border: 0;
+                    cursor: pointer;
+                    font-weight: bold;
+                    color: #fff;
+                }
+                
+                input[type=button]:hover {
+                    background-color: white;
+                    color: #E8180C;
+                    border: 1px solid #E8180C;
+                    transition: 1s;
+                    font-weight: bold;
+                }
+                
+                #res {
+                    width: 80%;
+                    margin: auto;
+                }
+                
+                .calcular {
+                    margin-left: 10px;
+                }
+                
+                .letra_calculo {
+                    margin-bottom: 30px;
+                    font-weight: bold;
+                }
+                
+                .lista :hover {
+                    transform: scale(1.1);
+                }
+                
+                .lista {
+                    transition: transform .3s;
+                }
+                
+                .h2 {
+                    font-size: 30px;
+                    margin-top: 20px;
+                    text-align: center;
+                    font-family: 'Quicksand', sans-serif;
+                    font-weight: bold;
+                }
+                
+                @media (max-width: 545px) {
+                    nav,
+                    .lista,
+                    .menu,
+                    a,
+                    .h2 {
+                        width: 100%;
+                        text-align: center;
+                        margin: auto;
+                    }
+                    .img_1,
+                    .img_2 {
+                        width: 100%;
+                    }
+                    /* .menu { width:400px; } */
+                }
+                
+                @media (max-width: 720px) {
+                    /* .menu { width:600px; } */
+                    nav,
+                    .lista,
+                    .menu,
+                    a,
+                    .h2 {
+                        width: 100%;
+                        margin: auto;
+                        text-align: center;
+                    }
+                    .img_1,
+                    .img_2 {
+                        width: 100%;
+                    }
+                }
+                
+                @media (max-width: 960px) {
+                    nav,
+                    .lista,
+                    .menu,
+                    a,
+                    .h2 {
+                        margin-top: 10px;
+                    }
+                    img,
+                    .img_1,
+                    .img_2 {
+                        width: 100%;
+                    }
+                    /* .menu { width:100%; } */
+                }
+                
+                nav div .link :hover {
+                    color: #E8180C;
+                    transition: 1s;
+                    font-weight: bold;
+                }
